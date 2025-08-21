@@ -5,6 +5,13 @@
 // 1. Number
 let age = 25;
 console.log(typeof age); // "number"
+//bigint
+let bigNumber = 1234567890123456789012345678901234567890n;
+console.log(typeof bigNumber); // "bigint"
+ 
+//symbol
+let uniqueId = Symbol("id");
+console.log(typeof uniqueId); // "symbol"
 
 // 2. String
 let name = "Alice";
